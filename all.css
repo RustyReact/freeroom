@@ -8234,3 +8234,253 @@ input[type=range]::-ms-thumb {
 	outline: 0;
 	padding: 8px 0 0
 }
+
+.invite-more-container {
+	color: #fff;
+	font-weight: 600;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+}
+
+.invite-more-container.elevated {
+	z-index: 6
+}
+
+.invite-more-header {
+	font-size: 19px;
+	line-height: 28px;
+	margin: 24px 0 16px 0
+}
+
+.invite-more-button {
+	display: flex;
+	margin: auto;
+	padding: 8px 16px;
+	width: fit-content;
+	width: -moz-fit-content;
+	height: 24px;
+	background: #0376da;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 24px;
+	cursor: pointer
+}
+
+.invite-more-button:hover {
+	background: #278adf
+}
+
+.invite-more-button-text {
+	margin-left: 8px;
+	font-size: 15px;
+	line-height: 24px
+}
+
+.invite-more-dialog {
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px
+}
+
+.invite-more-dialog>span {
+	font-weight: 600
+}
+
+.invite-more-dialog.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 16px 16px 24px;
+	width: calc(100% - 32px);
+	color: #fff;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px
+}
+
+.invite-more-dialog.header>div>svg {
+	cursor: pointer;
+	fill: #a4b8d1
+}
+
+.invite-more-dialog.copy-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 8px 8px 16px;
+	margin-top: 8px;
+	width: calc(100% - 24px);
+	height: 24px;
+	background: #0376da;
+	border-radius: 4px;
+	cursor: pointer
+}
+
+.invite-more-dialog.copy-link:hover {
+	background: #278adf;
+	font-weight: 600
+}
+
+.invite-more-dialog.copy-link-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 292px
+}
+
+.invite-more-dialog.copy-link-text.selected {
+	font-weight: 600
+}
+
+.invite-more-dialog.copy-link.clicked {
+	background: #31b76a
+}
+
+.invite-more-dialog.copy-link>div>svg>path {
+	fill: #fff
+}
+
+.invite-more-dialog.separator {
+	margin: 24px 0 24px -20px;
+	padding: 0 20px;
+	width: 100%;
+	height: 1px;
+	background: #5e6d7a
+}
+
+.invite-more-dialog.email-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 8px 8px 16px;
+	margin-top: 24px;
+	width: calc(100% - 26px);
+	height: 22px;
+	background: #2a3a4b;
+	border: 1px solid #5e6d7a;
+	border-radius: 3px;
+	cursor: pointer
+}
+
+.invite-more-dialog.email-container.active {
+	border-radius: 3px 3px 0 0
+}
+
+.invite-more-dialog.icon-container {
+	display: none
+}
+
+.invite-more-dialog.icon-container.active {
+	display: flex;
+	width: calc(100% - 26px);
+	padding: 8px 8px 8px 16px;
+	background: #2a3a4b;
+	border: 1px solid #5e6d7a;
+	border-top: none;
+	border-radius: 0 0 3px 3px
+}
+
+.invite-more-dialog.icon-container.active>* {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 4px;
+	cursor: pointer
+}
+
+.invite-more-dialog.icon-container.active:hover>div:hover {
+	background-color: rgba(255, 255, 255, .2)
+}
+
+.invite-more-dialog.icon-container.active>:not(:last-child) {
+	margin-right: 16px
+}
+
+.invite-more-dialog.icon-container.active .copy-invite-icon>div>svg>path {
+	fill: #a4b8d1
+}
+
+.invite-more-dialog.dial-in-display .info-label {
+	color: #a4b8d1
+}
+
+.invite-more-dialog.dial-in-display .dial-in-copy {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 21px;
+	cursor: pointer
+}
+
+.invite-more-dialog.invite-buttons {
+	width: 100%;
+	text-align: right;
+	margin-top: 8px
+}
+
+.invite-more-dialog.invite-buttons>a {
+	display: inline-block;
+	height: 24px;
+	width: 48px;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer
+}
+
+.invite-more-dialog.invite-buttons-cancel {
+	margin-right: 16px;
+	padding: 7px 15px;
+	background: #2a3a4b;
+	border: 1px solid #5e6d7a
+}
+
+.invite-more-dialog.invite-buttons-add {
+	padding: 8px 16px;
+	background: #0376da
+}
+
+.invite-more-dialog.invite-buttons.disabled>a {
+	pointer-events: none
+}
+
+.invite-more-dialog.stream {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 8px 8px 16px;
+	margin-top: 8px;
+	width: calc(100% - 26px);
+	height: 22px;
+	background: #2a3a4b;
+	border: 1px solid #5e6d7a;
+	border-radius: 3px;
+	cursor: pointer
+}
+
+.invite-more-dialog.stream:hover {
+	font-weight: 600
+}
+
+.invite-more-dialog.stream-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 292px
+}
+
+.invite-more-dialog.stream-text.selected {
+	font-weight: 600
+}
+
+.invite-more-dialog.stream.clicked {
+	background: #31b76a;
+	border: 1px solid #31b76a
+}
+
+.invite-more-dialog.stream>div>svg>path {
+	fill: #fff
+}
