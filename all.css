@@ -13,7 +13,7 @@
     position: fixed;
     z-index: 104;
     width: 100%;
-    padding-bottom: 5px;
+    padding: 8px 0px;
 
     background: #f2f2f2;
     line-height: 40px;
@@ -40,7 +40,11 @@
 .footer{
     display: inline-table;
 }
-
+@media(max-width : 768px){
+    .footer{
+        display: none;
+    }
+}
 
 
 
