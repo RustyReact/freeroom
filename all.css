@@ -4804,7 +4804,7 @@ body.welcome-page {
 	z-index: 2;
 	background-color: #fff;
 	padding: 25px 30px;
-	border-radius: 0
+	border-radius: 20px;
 }
 
 .welcome .header #enter_room .enter-room-input-container {
@@ -4855,7 +4855,8 @@ body.welcome-page {
 	width: 710px;
 	background: #75A7E7;
 	display: flex;
-	flex-direction: column
+    flex-direction: column;
+    display : none
 }
 
 .welcome .header .tab-container .tab-content {
