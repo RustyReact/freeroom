@@ -6,6 +6,44 @@
 .leftwatermark{
     display : none !important;
 }
+.footer{
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+    padding-bottom: 5px;
+
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
+.footer span{
+    color : #243857 !important;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin: 0 !important;
+    font-size: 14px !important;
+}
+.footer .footer-right{
+    float : right;
+}
+.info-dialog-conference-url .spacer{
+    display : none !important;
+}
+.info-dialog-password .spacer{
+    display : none !important;
+}
+
+.footer{
+    display: inline-table;
+}
+
+
+
+
 .iti-flag {
 	height: 15px;
 	box-shadow: 0 0 1px 0 #888;
