@@ -3,6 +3,9 @@
     max-width : 100%;
     height : 150px;
 }
+.leftwatermark{
+    display : none !important;
+}
 .iti-flag {
 	height: 15px;
 	box-shadow: 0 0 1px 0 #888;
