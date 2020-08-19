@@ -2202,14 +2202,14 @@ button.no-icon {
 .inlay__title {
 	margin: 17px 0;
 	padding-bottom: 17px;
-	color: #fff!important;
+	color: red!important;
 	font-size: 21px;
 	letter-spacing: .3px;
-	border-bottom: 1px solid #fff
+	/* border-bottom: 1px solid #fff */
 }
 
 .inlay__text {
-	color: #fff!important;
+	color:red!important;
 	display: block;
 	margin-top: 22px;
 	font-size: 16px
