@@ -53,6 +53,51 @@
     color : #243857 !important;
     margin-right:10px
 }
+.security-dialog {
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px
+}
+
+.security-dialog.password-section {
+	display: flex;
+	flex-direction: column
+}
+
+.security-dialog.password-section .description {
+	font-size: 13px
+}
+
+.security-dialog.password-section .password {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px
+}
+
+.security-dialog.password-section .password-actions a {
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	color: #6fb1ea
+}
+
+.security-dialog.password-section .password-actions>:first-child:not(:last-child) {
+	margin-right: 24px
+}
+
+.security-dialog .separator-line {
+	margin: 24px 0 24px -20px;
+	padding: 0 20px;
+	width: 100%;
+	height: 1px;
+	background: #5e6d7a
+}
+
+.security-dialog .separator-line:last-child {
+	display: none
+}
+
 
 
 
