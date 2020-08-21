@@ -43,7 +43,7 @@
 @media(max-width : 768px){
     .footer{
 		/* display: none; */
-		position: relative;
+		position: absolute;
     }
     .web-logo{
         max-width : 100%;
