@@ -44,6 +44,7 @@
     .footer{
 		/* display: none; */
 		/* position: absolute; */
+		margin-top : 20px;
 		position: inherit;
 		width: 100%;
 		min-width: 100%;
