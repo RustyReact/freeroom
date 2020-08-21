@@ -60,6 +60,7 @@
 		background-color : #0395b0;
 		/* background-position: center; */
 		background-repeat: no-repeat;
+		background-size : 100%100%;
 		background-image: url("https://images.pexels.com/photos/4246228/pexels-photo-4246228.jpeg?cs=srgb&amp;dl=pexels-ketut-subiyanto-4246228.jpg&amp;fm=jpg");
 	}
 }
