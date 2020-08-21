@@ -58,9 +58,9 @@
 	}
 	#welcome_page{
 		background-color : #0395b0;
-		background-position: center;
+		/* background-position: center; */
 		background-repeat: no-repeat;
-		background-image: url("https://image.freepik.com/free-vector/video-call-concept-with-people-talking_23-2148509655.jpg");
+		background-image: url("https://images.pexels.com/photos/4031826/pexels-photo-4031826.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 	}
 }
 
