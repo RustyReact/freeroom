@@ -2982,6 +2982,7 @@ button.no-icon {
 }
 
 .info-dialog .info-password-field {
+	margin: auto;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
